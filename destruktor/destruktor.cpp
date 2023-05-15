@@ -1,6 +1,7 @@
 #include <iostream>
 using namespace std;
 class angka {
+
 private:
     int* arr;
     int panjang;
@@ -11,10 +12,18 @@ public:
     void isiData();
 };
 //Definisi member function
-angka::angka(int i){ //Constructor
+angka::angka(int i) { //Constructor
     panjang = i;
     arr = new int[i];
     isiData();
+}
+
+angka::~angka() { //Destructor
+    cout << endl;
+    cetakData();
+    delete[]arr;
+    cout << "Alamat Array sudah dilepaskan" << endl;
+}
 int main()
 {
     std::cout << "Hello World!\n";
