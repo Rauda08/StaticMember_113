@@ -3,7 +3,7 @@
 using namespace tds;
 
 class mahasiswa{
-public:
+public
 };
 int main()
 {
