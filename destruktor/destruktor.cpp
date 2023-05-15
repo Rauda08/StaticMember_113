@@ -43,6 +43,7 @@ int main() {
     angka* ptrBelajarcpp = new angka(5); //Constructor Dipanggil
     delete ptrBelajarcpp; //Destructor Dipanggil
 
+    return 0;
 int main()
 {
     std::cout << "Hello World!\n";
