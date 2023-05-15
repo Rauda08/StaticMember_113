@@ -20,4 +20,8 @@ mahasiswa::mahasiswa() {
 	nama = ""; 
 }
 
+mahasiswa::mahasiswa(int iNim) {
+	nim = iNim;
+}
+
 
