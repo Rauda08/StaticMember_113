@@ -26,7 +26,7 @@ angka::~angka() { //Destructor
 }
 
 void angka::isiData() {
-    for (int i == 1; <= panjang; i++) {
+    for (int i=1;<= panjang;i++) {
         cout << i << " = " << arr[i] << endl;
     }
 }
